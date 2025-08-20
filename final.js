@@ -13,7 +13,7 @@ function totalFine( fare ) {
 
 
 
-function onlyCharacters(str) {
+function onlyCharacter(str) {
     if (typeof str !== 'string') {
         return "Invalid";
     }
@@ -72,7 +72,7 @@ function isSame(arr1, arr2) {
 
 
 
-function resultreport(marks) {
+function resultReport(marks) {
     if (!Array.isArray(marks)) {
         return "Invalid";
     }
